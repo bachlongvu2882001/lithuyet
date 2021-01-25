@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Biên dịch file",
+			"command": "C:\\min\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${workspaceFolder}\\haha.cpp",
+				"-o",
+				"${workspaceFolder}\\haha.exe"
+			],
+			"options": {
+				"cwd": "C:\\min\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
